@@ -9,7 +9,6 @@ import static org.junit.Assert.assertThat;
 
 /**
  * Test.
- * 
  * @author Anokis Luetto (mailto:anokis@gmail.com)
  * @version - $Id$
  * @since 0.1
@@ -23,6 +22,6 @@ public class CalculateTest {
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(out));
 		Calculate.main(null);
-		assertThat(out.toString(),is(String.format("Hello world!%s",System.getProperty("line.separator"))));
+		assertThat(out.toString(), is(String.format("Hello world!%s", System.getProperty("line.separator"))));
 		}
 }
