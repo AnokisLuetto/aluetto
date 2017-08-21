@@ -13,10 +13,6 @@ public class Max {
 	 * @return max результат - может содержать только целове число
 	*/
 	public int max(int first, int second) {
-		boolean condition = false;
-		if (first > second) {
-			condition = true;
-		}
-		return condition ? first : second;
+		return first > second ? first : second;
 	}
 }
