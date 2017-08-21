@@ -47,11 +47,7 @@ public class Point {
 	 * @return max результат - может содержать только целове число
 	*/
 	public boolean is(int a, int b) {
-		boolean condition = false;
-		if (getY() == (a * getX() + b)) {
-			condition = true;
-		}
-		return condition;
+		return getY() == a * getX() + b;
 	}
 
 }
