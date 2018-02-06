@@ -15,4 +15,13 @@ public class Max {
 	public int max(int first, int second) {
 		return first > second ? first : second;
 	}
+	/**
+	 * @param first может содержать только целове число
+	 * @param second может содержать только целове число
+	 * @param third может содержать только целове число
+	 * @return max результат - может содержать только целове число
+	*/
+	public int max(int first, int second, int third) {
+		return Math.max(Math.max(first, second), third);
+	}
 }
