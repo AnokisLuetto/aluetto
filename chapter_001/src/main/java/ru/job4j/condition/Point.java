@@ -4,7 +4,7 @@ package ru.job4j.condition;
  * Packages for Condition task.
  * @author Anokis Luetto (mailto:anokis@gmail.com)
  * @version - $Id$
- * @since 0.1
+ * @since 0.
 */
 public class Point {
 	/**
@@ -49,6 +49,16 @@ public class Point {
 	public boolean is(int a, int b) {
 		return getY() == a * getX() + b;
 	}
-
+	 /**
+	 * distanceTo - Определяет расстояние между 2мя точками.
+	 *
+	 * @param that инициализация точек
+	 * @return результат - может содержать число с плавающей точкой
+	*/
+	public double distanceTo(Point that) {
+		double dx = this.x - that.x;
+		double dy = this.y - that.y;
+		return Math.sqrt(dx * dx + dy * dy);
+	}
 }
 
