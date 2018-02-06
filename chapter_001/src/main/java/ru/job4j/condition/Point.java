@@ -47,7 +47,7 @@ public class Point {
 	 * @return max результат - может содержать только целове число
 	*/
 	public boolean is(int a, int b) {
-		return getY() == a * getX() + b;
+		return this.y == a * this.x + b;
 	}
 	 /**
 	 * distanceTo - Определяет расстояние между 2мя точками.
