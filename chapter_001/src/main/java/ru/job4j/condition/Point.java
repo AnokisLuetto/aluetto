@@ -4,7 +4,7 @@ package ru.job4j.condition;
  * Packages for Condition task.
  * @author Anokis Luetto (mailto:anokis@gmail.com)
  * @version - $Id$
- * @since 0.
+ * @since 0.2
 */
 public class Point {
 	/**
