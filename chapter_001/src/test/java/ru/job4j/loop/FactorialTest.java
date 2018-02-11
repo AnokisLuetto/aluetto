@@ -1,7 +1,7 @@
-package ru.job4j.max;
+package ru.job4j.loop;
 
 import org.junit.Test;
-
+//import java.util.stream.IntStream;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 

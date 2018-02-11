@@ -1,4 +1,4 @@
-package ru.job4j.max;
+package ru.job4j.loop;
 
 /**
  * Packages for Factorial task.
@@ -16,7 +16,7 @@ public class Factorial {
 		for (int index = 1; index <= n; index++) {
 			res *= index;
 		}
-		return n == 0 ? 1 : res;
+		return res;
 		//return n == 0 ? 1 : IntStream.rangeClosed(1, n).map(i -> i * n);
 	}
 }
